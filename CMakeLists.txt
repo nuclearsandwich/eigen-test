@@ -8,8 +8,7 @@ message("tinyxml include dir ${TinyXML_INCLUDE_DIR}")
 message("TinyXML dir: ${Tinyxml_DIR}")
 message("Tinyxml incl ${TinyXML_INCLUDE_DIRS}")
 message("Tinyxml libs ${TinyXML_LIBRARIES}")
-include_directories(
-	${Tinyxml_INCLUDE_DIRS})
+include_directories(${TinyXML_INCLUDE_DIRS})
 add_executable(
 	tiny_hello_world
 	tiny_hello_world.cpp)
